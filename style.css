@@ -1,0 +1,85 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background: #f4f6f5;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background: #2ecc71;
+  color: #fff;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+header p {
+  margin: 5px 0 15px;
+}
+#search {
+  width: 90%;
+  max-width: 500px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+#oil-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+  justify-content: center;
+}
+.oil-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: calc(33% - 30px);
+  box-sizing: border-box;
+  transition: transform 0.2s;
+}
+.oil-item:hover {
+  transform: translateY(-5px);
+}
+.oil-item h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #27ae60;
+}
+.oil-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+button {
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #219150;
+}
+@media (max-width: 768px) {
+  .oil-item {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .oil-item {
+    width: 100%;
+  }
+}
