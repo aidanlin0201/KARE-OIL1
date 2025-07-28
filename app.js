@@ -1,4 +1,4 @@
-const API_URL = "在這裡填入你的 Web App /exec URL";
+const API_URL = "https://script.google.com/macros/s/AKfycbxGp2LS9yndsCkFmcpnw1nRaSNsDR38eR7rAyWjnCzcP6zVpjifx6NygDOtzE6W7_Eb/exec";
 const oilList = document.getElementById("oil-list");
 const saveBtn = document.getElementById("saveBtn");
 const searchInput = document.getElementById("search");
